@@ -2,5 +2,8 @@ mod trebuchet;
 
 fn main() {
     // Day 1: Trebuchet
-    println!("{}", trebuchet::sum_calibration_values());
+    // Pt 1:
+    println!("{}", trebuchet::sum_calibration_values(false));
+    //Pt 2:
+    println!("{}", trebuchet::sum_calibration_values(true));
 }
